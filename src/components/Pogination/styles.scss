@@ -1,0 +1,19 @@
+.pogination {
+  max-width: 600px;
+  display: flex;
+  justify-content: space-between;
+
+  button {
+    background-color: rgb(255, 140, 0);
+    color: #fff;
+    border-radius: 20px;
+    border: 1px solid #444;
+    width: 30px;
+    height: 30px;
+    transition: 0.3s;
+
+    &:hover {
+      background-color: rgb(141, 83, 13);
+    }
+  }
+}
